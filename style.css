@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+section h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin: 70px 0 70px 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 4px 0px rgb(2, 151, 151);
+    border-bottom: 5px solid black;
+    padding-bottom: 2px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0 70px 0;
+}
+.img img{
+    border-radius: 50%;
+    cursor: pointer;
+    border: 5px solid black
+    ;
+}
+.img img:hover{
+    border: 5px solid rgb(3, 186, 192);
+}
+
+.round_box{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    gap: 40px;
+    
+}
+.round_box .you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.name{
+    
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.score{
+    
+    font-size: 40px;
+    font-weight: 600;
+}
+#msg{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    height: 50px;
+}
